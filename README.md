@@ -59,8 +59,6 @@ $st->feedbacks($params);  ($st->feedbacks_get($params); will also work)
 
 ## Examples
 
-### SendAPI
-
 - Retrieve discussions from a platform :
 ```php
 
