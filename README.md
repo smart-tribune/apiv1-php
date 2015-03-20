@@ -73,7 +73,7 @@ $reponse = $st->feedbacks($params)
 
 ```
 
-- Create a simple discussion on a platform :
+- Create a discussion on a platform :
 ```php
 
 $st = new SmartTribune();
@@ -81,10 +81,25 @@ $st = new SmartTribune();
 $params =array(
   	platform_id => XXX,
   	category_id => XXX,
+  	theme_id => XXX,
   	title =>  'title of the discussion',
-  	body => 'Full description of the discussion'
+  	body => 'Full description of the discussion',
+  	mood_id => XXX,
 );
-$reponse = $st->feedbacks($params)
+$reponse = $st->feedbacks_create($params)
+
+```
+
+- Update an existing discussion :
+```php
+
+$st = new SmartTribune();
+
+$params =array(
+  	feedback_id => XXX,
+  	state_id => XXX,
+);
+$reponse = $st->feedbacks_update($params)
 
 ```
 
