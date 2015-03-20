@@ -3,7 +3,7 @@
 ## Introduction
 
 Provides a simple PHP library for the last version of [Smart Tribune API](https://www.smart-tribune.com/developpeurs-documentation-ressources/api/).
-This class will help you to autehnticate and call Smart tribune API with a few lines of code under PHP language.
+This class will help you to authenticate and call Smart tribune API with a few lines of code under PHP language.
 
 ### Prerequisites
 
