@@ -44,17 +44,17 @@ $st = new SmartTribune ( $apiKey, $secretKey );
 Now what you're going to do next depends on what you want to GET, POST, PUT or DELETE from Smart Tribune servers through the API.
 Check out our [API documentation](https://www.smart-tribune.com/developpeurs-documentation-ressources/api/) to see all the available endpoints and resources.
 
-We've make call even easier and you can now create your method like : **api-method_action-verb**
+We've made api calls even easier, you can now create your method like : **api-method_action-verb**
 For example if you want to create a new feedback this would be **feedbacks_create**
 
 Available actions are : get, create, update, delete. 
 **Info :** If nothing specified get action will be used. 
-Related HTTP VERB are used to call so GET, POST, PUT, DELETE
+Related HTTP VERB are used to send call : GET, POST, PUT, DELETE
 
 
 So you will need to specify which resource to call this way (resource Feedbacks in this example) with an array of parameters ```$params``` :
 ```php
-$st->feedbacks($params);  ($st->feedbacks_get($params); will also work)
+$st->feedbacks($params);  ($st->feedbacks_get($params); would also work)
 ```
 
 ## Examples
@@ -71,7 +71,7 @@ $reponse = $st->feedbacks($params)
 
 ```
 
-- Create a discussion on a platform :
+- Create a new discussion on a platform :
 ```php
 
 $st = new SmartTribune();
