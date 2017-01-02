@@ -3,19 +3,15 @@
 /**
  * Smart-Tribune Public API
  *
- * @package		API v0.1
+ * @package		API v1
  * @author		Smart-tribune
  * @link		https://api.smart-tribune.com
- */
-
-/**
- * @todo create a getReguestType() method to avoid passing the request_type parameter
  */
 
 class SmartTribune
 {   
 	# Mode debug ? 0 none / 1 errors only / 2 all
-	var $debug = 1;
+	var $debug = 0;
 
 	# Edit with your Smart Tribune Infos
 	var $apiKey = ''; 
@@ -357,5 +353,6 @@ class SmartTribune
 		echo '</table>';
 
 		echo '</div>';
+		die();
 	}
 }
