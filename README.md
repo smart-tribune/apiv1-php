@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Provides a simple PHP wrapper for Smart Tribune API V1 [Smart Tribune API](https://www.smart-tribune.com/developpeurs-documentation-ressources/api/).
+Provides a simple PHP wrapper for Smart Tribune API V1 [Smart Tribune API](https://www.smart-tribune.com/developers/api?v=v1).
 This wrapper will help you to authenticate and call Smart tribune API with a few lines of code runing PHP language.
 
 ### Prerequisites
@@ -42,7 +42,7 @@ $st = new SmartTribune ( $apiKey, $secretKey );
 ```
 
 Now what you're going to do next depends on what you want to GET, POST, PUT or DELETE from Smart Tribune servers through the API.
-Check out our [API documentation](https://www.smart-tribune.com/developpeurs-documentation-ressources/api/) to see all the available endpoints and resources.
+Check out our [API documentation](https://www.smart-tribune.com/developers/api?v=v1) to see all the available endpoints and resources.
 
 We've made api calls even easier, you can now create your method like : **api-method_action-verb**
 For example if you want to create a new feedback this would be **feedbacks_create**
